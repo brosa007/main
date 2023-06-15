@@ -81,15 +81,15 @@
 }
 
 .center::before {
-  background: var(--secondary-glow);
+  background: rgba(131, 3, 250, 0.2);
   border-radius: 50%;
-  width: 480px;
-  height: 360px;
-  margin-left: -400px;
+  width: 400px;
+  height: 250px;
+  margin-left: -200px;
 }
 
 .center::after {
-  background: var(--primary-glow);
+  background: rgba(128, 0, 128, 0.6);
   width: 240px;
   height: 180px;
   z-index: -1;
